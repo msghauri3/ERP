@@ -20,6 +20,7 @@ import DashboardHRM from './HRM_Home/DashboardHRM';
 import EmployeesDetail from './HRM_Home/EmployeesList'
 import EmployeeDetail from './HRM_Home/EmployeeDetail'
 import EmployeesSelection from './HRM_Home/EmployeesSelection'
+import EmployeePy from './HRM_Home/EmployeePy'
 
 // Leaves
 import Leaves from './HRM_Home/Leaves'
@@ -92,6 +93,7 @@ function AppRoutes() {
         <Route path="DashboardHRM" element={<DashboardHRM />} />
          <Route path="DashboardPayroll" element={<DashboardPayroll />} />
         <Route path="EmployeesDetail" element={<EmployeesDetail />} />     
+        <Route path="EmployeePy" element={<EmployeePy />} />   
         <Route path="EmployeesSelection" element={<EmployeesSelection />} />     
         <Route path="GeneratePayroll" element={<GeneratePayroll />} />
         <Route path="Leaves" element={<Leaves />} />

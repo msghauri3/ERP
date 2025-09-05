@@ -23,6 +23,10 @@ function SideBarHRM() {
           <FaHome className="me-2" style={{ color: '#00d1b2' }} /> Dashboard
         </Nav.Link>
 
+        <Nav.Link as={NavLink} to="./EmployeePy" end className="text-white">
+          <FaHome className="me-2" style={{ color: '#ffdd57' }} /> All Employees (P)
+        </Nav.Link>
+
         <Nav.Link as={NavLink} to="./EmployeesDetail" end className="text-white">
           <FaHome className="me-2" style={{ color: '#ffdd57' }} /> All Emp
         </Nav.Link>
