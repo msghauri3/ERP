@@ -25,6 +25,11 @@ function SideBarHRM() {
           <FaHome className="me-2" style={{ color: '#00d1b2' }} /> Dashboard
         </Nav.Link>
 
+         <Nav.Link as={NavLink} to="./LeavesPy" className="text-white">
+          <FaUmbrellaBeach className="me-2" style={{ color: '#3273dc' }} /> Emp Leaves
+        </Nav.Link>
+
+
         <Nav.Link as={NavLink} to="./LeavesCasual" className="text-white">
           <FaUmbrellaBeach className="me-2" style={{ color: '#3273dc' }} /> Casual Leaves
         </Nav.Link>

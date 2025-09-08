@@ -36,6 +36,8 @@ import TaxSetup from './HRM_Home/TaxSetup'
 import EmployeesReports from './HRM_Home/EmployeesReports'
 import ChartOfAccount from './Finance_Home/ChartOfAccount'
 import GeneralLedger from './Finance_Home/GeneralLedger';
+import LeavesEmp from './HRM_Home/LeavesEmp';
+import LeavesPy from './HRM_Home/LeavesPy'
 
 
 // Payroll
@@ -107,6 +109,8 @@ function AppRoutes() {
         <Route path="LeavesSick" element={<LeavesSick />} />
         <Route path="LeavesSetup" element={<LeavesSetup />} />
         <Route path="LeavesReports" element={<LeavesReports />} />
+        <Route path="LeavesEmp" element={<LeavesEmp />} />
+        <Route path="LeavesPy" element={<LeavesPy />} />
         <Route path="Payroll" element={<Payroll />} />
         <Route path="EmployeesReports" element={<EmployeesReports />} />
         <Route path="UploadExcel" element={<UploadExcel />} />
